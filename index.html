@@ -1,0 +1,61 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unit 4 Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+</head>
+<body class="background">
+    <div class="header">
+        <h1>CrystalsCollector!</h1>
+    </div>
+    <div class="body">    
+        <p>You will be given a random number at the start of the game.</p>
+        <br />
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <br />
+        <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+        <br />
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <br />
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>    
+    <div class="container">
+        <div class="randomNumber">
+            <h2></h2>
+        </div>
+        <div class="winsAndLosses">
+            <p>Wins: <span id="wins"></span></p>
+            <br />
+            <p>Losses: <span id="losses"></span></p>
+        </div>
+    </div>
+    <div class="images">
+        <div class="gem1">
+            <img src="assets/images/jewel1.gif" alt="diamond-shape-gem">
+        </div>
+        <div class="gem2">
+            <img src="assets/images/jewel2.gif" alt="star-shape-gem">
+        </div>
+        <div class="gem3">
+            <img src="assets/images/jewel3.gif" alt="octagon-shape-gem">
+        </div>
+        <div class="gem4">
+            <img src="assets/images/jewel4.gif" alt="rectangle-shape-gem">
+        </div>
+    </div>
+        <div class="totalScore">
+            <p>Your total score is:</p>
+        </div>
+    <div class="yourScore">
+        <h2 class="total"></h2>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

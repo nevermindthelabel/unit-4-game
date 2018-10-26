@@ -1,0 +1,105 @@
+.background {
+    background: url(../images/bananas.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    min-width: auto;
+    border: 2px solid #000000;
+}
+
+.header {
+    background-color: indianred;
+    color: #ffffff;
+    margin-left: 3%;
+    margin-top: .5%;
+    width: 26%;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: .5%;
+    padding: 30px 0px;
+}
+.body {
+    margin: .5% 0% 1% 3%;
+    background-color: blanchedalmond;
+    color: #000000;
+    width: 50%;
+    padding: 25px;;
+}
+.container {
+    position: relative;
+    display: flex;
+}
+.randomNumber {
+    margin-left: 3%;
+    margin-right: 1%;
+    background-color: mediumseagreen;
+    color: #000000;
+    width: 14%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.winsAndLosses {
+    padding-top: .5%;
+    background-color: turquoise;
+    margin-left: 1%; 
+    color: #000000;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: bolder;
+    
+}
+.images {
+    position: relative;
+    display: flex;
+}
+.gem1 {
+    max-height: 20%;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: flex-start
+}
+.gem2 {
+    max-height: 20%;
+    margin-top: 1%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: flex-start
+}
+.gem3 {
+    max-height: 20%;
+    margin-right: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-start
+}
+.gem4 {
+    max-height: 20%;
+    margin-right: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-start
+}
+.totalScore {
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 15%;
+    background-color: lightseagreen;
+    color: #ffffff
+}
+.total {
+    background-color: lightseagreen;
+    color: #ffffff;
+    width: 15%;
+    margin-top: .5%;
+    margin-left: 3%;
+    height: 10%;
+    font-size: 30px;
+    font-weight: 900;
+}
